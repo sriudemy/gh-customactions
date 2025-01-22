@@ -1,7 +1,10 @@
 import os
 import boto3
 import mimetypes
+import cgitb
 from botocore.config import Config
+
+cgitb.enable()
 
 
 def run():
